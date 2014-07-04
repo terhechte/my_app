@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  description: MyString
+  views: 1
+  die_votes: 1
+  fun_votes: 1
+  thumbnail: MyString
+  content_image: MyString
+  content_video: MyString
+  content_html: MyText
+  keywords: MyString
+  priority: 1
+  slider_id: 
+  category_id: 
+  category_id: 
+
+two:
+  title: MyString
+  description: MyString
+  views: 1
+  die_votes: 1
+  fun_votes: 1
+  thumbnail: MyString
+  content_image: MyString
+  content_video: MyString
+  content_html: MyText
+  keywords: MyString
+  priority: 1
+  slider_id: 
+  category_id: 
+  category_id: 
