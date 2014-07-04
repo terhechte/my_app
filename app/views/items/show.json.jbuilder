@@ -1,0 +1,1 @@
+json.extract! @item, :id, :title, :description, :views, :die_votes, :fun_votes, :thumbnail, :content_image, :content_video, :content_html, :keywords, :priority, :slider_id, :category_id, :category_id, :created_at, :updated_at

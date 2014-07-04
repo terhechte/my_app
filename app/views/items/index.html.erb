@@ -1,0 +1,51 @@
+<h1>Listing items</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Views</th>
+      <th>Die votes</th>
+      <th>Fun votes</th>
+      <th>Thumbnail</th>
+      <th>Content image</th>
+      <th>Content video</th>
+      <th>Content html</th>
+      <th>Keywords</th>
+      <th>Priority</th>
+      <th>Slider</th>
+      <th>Category</th>
+      <th>Category</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @items.each do |item| %>
+      <tr>
+        <td><%= item.title %></td>
+        <td><%= item.description %></td>
+        <td><%= item.views %></td>
+        <td><%= item.die_votes %></td>
+        <td><%= item.fun_votes %></td>
+        <td><%= item.thumbnail %></td>
+        <td><%= item.content_image %></td>
+        <td><%= item.content_video %></td>
+        <td><%= item.content_html %></td>
+        <td><%= item.keywords %></td>
+        <td><%= item.priority %></td>
+        <td><%= item.slider %></td>
+        <td><%= item.category %></td>
+        <td><%= item.category %></td>
+        <td><%= link_to 'Show', item %></td>
+        <td><%= link_to 'Edit', edit_item_path(item) %></td>
+        <td><%= link_to 'Destroy', item, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Item', new_item_path %>
