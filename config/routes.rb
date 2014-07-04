@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :sliders
+
   resources :categories
 
   resources :items
