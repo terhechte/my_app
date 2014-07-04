@@ -1,4 +1,5 @@
 ActiveAdmin.register Category do
+  permit_params :title, :description, :image
 
   
   # See permitted parameters documentation:
