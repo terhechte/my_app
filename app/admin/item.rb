@@ -1,4 +1,5 @@
 ActiveAdmin.register Item do
+  permit_params :title, :description, :views, :die_votes, :fun_votes, :thumbnail, :content_image, :content_video, :content_html, :keywords, :priority
 
   
   # See permitted parameters documentation:
